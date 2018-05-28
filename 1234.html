@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- 防止屏幕进行伸缩 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <style>
+    .container {
+      width: 100%;
+      /*max-width: 500px;*/
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      background-color: #f7f7f7;
+    }
+    .content{
+      width: 100%;
+    }
+    .wf-item-1 {
+      width: 47%;
+      padding-bottom: 47%;
+      margin-left: 2%;
+    }
+    .wf-item {
+      height: 0;
+      margin-bottom: 2%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      float: left;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="content">
+    <div id="wf-container" style="width: 100%; position: relative; overflow: hidden;">
+      <div class="wf-item wf-item-1" style="background-image: url(./src/assets/image/cm.png);"></div>
+      <!--<div class="wf-item wf-item-1" style="background-image: url(./src/assets/image/cm.png);"></div>-->
+      <!--<div class="wf-item wf-item-1" style="background-image: url(./src/assets/image/cm.png);"></div>-->
+      <!--<div class="wf-item wf-item-1" style="background-image: url(./src/assets/image/cm.png);"></div>-->
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
